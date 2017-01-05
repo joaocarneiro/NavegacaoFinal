@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navegacao.Page3"
+             Title="Terceira"
+             BackgroundColor="Aqua">
+  <StackLayout>
+    <StackLayout>
+      <Button x:Name="btn1" Text="Anterior" HorizontalOptions="Center" Clicked="onClickedBack"></Button>
+      <Button x:Name="btn2" Text="Inicio" HorizontalOptions="Center" Clicked="onClickedBegin"></Button>
+      <Button x:Name="btn3" Text="Ir para a TabbedPage" HorizontalOptions="Center" Clicked="onClickedTabbed"></Button>
+      <Button x:Name="btn4" Text="Ir para a CarouselPage" HorizontalOptions="Center" Clicked="onClickedCarousel"></Button>
+    </StackLayout>
+  </StackLayout>
+</ContentPage>

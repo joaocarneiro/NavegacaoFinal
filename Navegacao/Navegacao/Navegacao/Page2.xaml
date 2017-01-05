@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navegacao.Page2"
+             Title="Segunda"
+             BackgroundColor="Aqua">
+  <StackLayout>
+    <StackLayout>
+      <Button x:Name="btn1" Text="Anterior" HorizontalOptions="Center" Clicked="onClickedBack"></Button>
+      <Button x:Name="btn2" Text="Próximo" HorizontalOptions="Center" Clicked="onClickedForward"></Button>
+    </StackLayout>
+  </StackLayout>
+</ContentPage>
